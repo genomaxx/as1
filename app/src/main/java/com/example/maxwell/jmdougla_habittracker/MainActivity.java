@@ -71,7 +71,4 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public Collection<Habit> getHabits() {
-        return new ArrayList<Habit>();
-    }
 }
