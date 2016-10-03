@@ -8,13 +8,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/listofHabits"
         android:layout_weight="1"
-        android:smoothScrollbar="true" />
+        android:smoothScrollbar="true"
+        android:clickable="false" />
 
     <Button
         android:layout_width="275dp"
         android:layout_height="wrap_content"
         android:text="Add a Habit!"
-        android:id="@+id/Add_a_Habit"
+        android:id="@+id/add_a_Habit"
         android:layout_gravity="bottom"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
