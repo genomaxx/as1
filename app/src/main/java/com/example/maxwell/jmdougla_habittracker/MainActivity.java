@@ -14,6 +14,13 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+
+A good portion of this code was written while learning from the student picker saga done by Abram
+ Hindle, therefore much of this project's structure, test cases and style will be quite similar
+ to the written for student picker. The student picker git repo can be found at the following
+ location:
+ https://github.com/abramhindle/student-picker
 */
 
 package com.example.maxwell.jmdougla_habittracker;
