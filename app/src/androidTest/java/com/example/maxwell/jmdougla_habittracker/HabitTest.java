@@ -12,5 +12,7 @@ public class HabitTest extends ActivityInstrumentationTestCase2 {
         String habitName = "Read Foreign Affairs";
         Habit habit = new Habit(habitName);
         assertTrue("Habit Name is not equal", habitName.equals(habit.getName()));
+        assertTrue("Habit Name.toString is not equal", habitName.toString().equals(habit.getName
+                ()));
     }
 }

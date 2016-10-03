@@ -18,6 +18,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 package com.example.maxwell.jmdougla_habittracker;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -26,6 +27,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -71,4 +73,15 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    public void viewHabits(View v) {
+        Toast.makeText(this, "go see habits!", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(MainActivity.this, ListHabitsActivity.class);
+        startActivity(intent);
+    }
+
+    public void viewCompletionLog(View v) {
+        Toast.makeText(this, "go see the completion log!",Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(MainActivity.this, CompletionLogActivity.class);
+        startActivity(intent);
+    }
 }

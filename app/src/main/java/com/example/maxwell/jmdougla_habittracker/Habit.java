@@ -16,6 +16,10 @@ public class Habit {
         this.habitName = habitName;
     }
 
+    public String toString() {
+        return getName();
+    }
+
     public boolean getStatus(){ return status; }
     public String getName() { return habitName; }
     public int getTimesCompleted() { return TimesCompleted; }

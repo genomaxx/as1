@@ -16,12 +16,12 @@
             android:layout_height="match_parent"
             android:layout_weight="1">
 
-            <TextView
+            <EditText
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="New Text"
                 android:id="@+id/habit_name"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                android:text="Name your Habit!" />
         </LinearLayout>
 
         <LinearLayout
@@ -57,7 +57,8 @@
             android:inputType="textMultiLine"
             android:ems="10"
             android:id="@+id/habit_descriptionText"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:text="describe the habit!" />
     </LinearLayout>
 
     <LinearLayout
